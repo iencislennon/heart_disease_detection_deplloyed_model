@@ -100,7 +100,7 @@ if st.button("Predict", use_container_width=True):
         "number_of_vessels_fluro": vessels,
         "thallium": thallium
     }
-    API_URL = "http://127.0.0.1:8000/predict"
+    API_URL = "https://heart-disease-detection-deplloyed-model.onrender.com/predict"
 
     try:
         with st.spinner("Predicting..."):
